@@ -1,14 +1,12 @@
-# Java and C build outputs
-/out/*
-!/out/.gitkeep
-!/out/client_c/
-/out/client_c/*
-!/out/client_c/.gitkeep
+# Ignore build outputs outside the tracked out/ directory
 *.class
 *.o
 *.obj
 *.exe
 /src/flight/client_c/flight_client
+!/out/
+!/out/**/
+!/out/**
 
 # macOS metadata
 .DS_Store
